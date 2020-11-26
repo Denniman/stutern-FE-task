@@ -96,7 +96,7 @@ body {
     font-size: 1.6rem;
     border: 1px solid #dfe1e5;
     border-radius: 2.4rem;
-    padding: 1.5rem 4rem;
+    padding: 1.2rem 4rem;
     background-color: transparent;
     width: 40%;
     margin-left: -3.2rem;
@@ -157,4 +157,83 @@ body {
     margin-left: 2rem;
 }
 
+.languages {
+    text-align: center;
+    margin-top: 2.5rem;
+}
 
+.link {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #609;
+}
+
+.lang_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.35rem;
+}
+
+.lang_list--item:not(:last-child) {
+    margin-right: 1.3rem;
+}
+
+.footer {
+    margin-top: 11rem;
+    color: #70757a;
+    background-color: var(--bg-color-secondary);
+    height: 9rem;
+    border-top: 1px solid #dadce0;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+}
+
+.nigeria {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #dadce0;
+    height: 4rem;
+}
+
+.nigeria-text {
+    padding: 2.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.ads {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.list-item > a {
+    color: #70757a;
+    text-decoration: none;
+}
+.list-item > a:hover {
+    text-decoration: underline;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 2rem;
+}
