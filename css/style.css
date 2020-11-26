@@ -122,11 +122,6 @@ body {
     background-color: var(--bg-color-primary);
 }
 
-
-.google-voice {
-    width: 10%;
-}
-
 .btn:focus {
     outline: none;
 }
