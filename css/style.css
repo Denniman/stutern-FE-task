@@ -99,7 +99,7 @@ body {
     padding: 1.2rem 4rem;
     background-color: transparent;
     width: 40%;
-    margin-left: -3.2rem;
+    margin: 0rem -3.2rem;
 }
 
 .search:hover {
@@ -116,9 +116,15 @@ body {
     fill: #9aa0a6;
 }
 
+
 .btn {
     border: none;
     background-color: var(--bg-color-primary);
+}
+
+
+.google-voice {
+    width: 10%;
 }
 
 .btn:focus {
