@@ -71,5 +71,90 @@ body {
     cursor: pointer;
 }
 
+.logo-section {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.google-logo {
+    width: 20%;
+}
+
+.search-input {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    color: rgba(0,0,0,.87);
+    font-size: 1.6rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 2.4rem;
+    padding: 1.5rem 4rem;
+    background-color: transparent;
+    width: 40%;
+    margin-left: -3.2rem;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+.search:focus {
+    outline: none;
+}
+
+.search__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: #9aa0a6;
+}
+
+.btn {
+    border: none;
+    background-color: var(--bg-color-primary);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.lucky-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.lucky-section--item {
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    color: #3c4043;
+    padding: 1rem 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: .5rem;
+    line-height: 27px;
+    min-width: 54px;
+    border: 1px solid #f8f9fa;
+}
+
+.lucky-section--item:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+.pad {
+    margin-left: 2rem;
+}
 
 

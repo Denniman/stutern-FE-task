@@ -24,11 +24,30 @@
      
     </header>
     <main class="container">
-        <div class="logo-section">Google Logo</div>
+        <div class="logo-section">
+            <img src="./assets/google-2015.svg" alt="" class="google-logo">
+        </div>
 
-        <div class="search-input">Search Input</div>
-        <div class="google-search">Google Search</div>
-        <div class="feeling-lucky">I'm Feeling Lucky</div>
+        <div class="search-input">
+            
+            <form class="form">
+                <button class="btn">
+                    <svg class="search__icon">
+                        <use xlink:href="./assets/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>  
+
+                </button>
+                <input type="text" class="search">
+                <button class="btn">
+                    Voice
+                </button>
+            </form>
+        </div>
+        <section class="lucky-section">
+            <div class="lucky-section--item">Google Search</div>
+            <div class="lucky-section--item pad">I'm Feeling Lucky</div>
+        </section>
+        
         <div class="languages">
             <span>Google offered in:</span>
             <ul>
