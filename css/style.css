@@ -1,0 +1,75 @@
+:root {
+    --bg-color-primary: #ffffff;
+    --bg-color-secondary: #f2f2f2;
+    --color-primary: #676767;
+    --color-secondary: #f2fbff;
+    --color-tertiary: #aebec4;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: var(--bg-color-primary);
+    font-family: arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 3rem;
+}
+
+.header-item {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.achor-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.achor-link:hover {
+    text-decoration: underline;
+}
+
+.sing-in {
+    padding: .7rem 1.2rem;
+    color: var(--bg-color-primary);
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    border-radius: .2rem;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    cursor: default;
+    text-decoration: none;
+}
+
+
+
+.app-logo {
+    width: 100%;
+    margin-right: -2.7rem;
+    cursor: pointer;
+}
+
+
+
