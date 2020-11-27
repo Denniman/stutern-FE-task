@@ -28,7 +28,8 @@ body {
     line-height: 1.6;
     background-color: var(--bg-color-primary);
     font-family: arial, sans-serif;
-    min-height: 100vh;
+    /* min-height: 100vh;
+    height: 100%; */
 }
 
 .header {
@@ -192,10 +193,14 @@ body {
 }
 
 .footer {
-    margin-top: 11.3rem;
+    margin-top: 15.3rem;
     color: #70757a;
     background-color: var(--bg-color-secondary);
     border-top: 1px solid #dadce0;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_list {
